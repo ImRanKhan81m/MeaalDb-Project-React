@@ -1,0 +1,77 @@
+.meal{
+    background-color: rgba(250, 235, 215, 0.698);
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.meal h3{
+    margin-top: 5px;
+    font-size: 23px;
+}
+.meal button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 13px;
+    font-weight: 700;
+}
+.btn{
+    display: flex;
+    justify-content:space-around
+}
+.meal img{
+    width: 310px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+
+@media (max-width:1080px) {
+    .meal h3{
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    .meal p{
+        margin-top: 5px;
+        font-size: 16 px;
+    }
+    .meal img{
+        width: 250px;
+        height: 180px;
+        border-radius: 15px;
+        margin-top: 0px;
+    }
+    .meal button{
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+@media (max-width:770px) {
+    .meal h3{
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    .meal p{
+        margin-top: 5px;
+        font-size: 16 px;
+    }
+    .meal img{
+        width: 210px;
+        height: 150px;
+        border-radius: 15px;
+        margin-top: 0px;
+    }
+    .meal button{
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
