@@ -15,6 +15,10 @@
     font-size: 13px;
     font-weight: 700;
 }
+.icon{
+    margin-left: 3px;
+    font-size: 14px;
+}
 .btn{
     display: flex;
     justify-content:space-around
