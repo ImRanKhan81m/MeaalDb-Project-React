@@ -4,7 +4,7 @@ import React from 'react';
 import './Meal.css'
 
 const Meal = (props) => {
-    const { handleAddToOrder, meal} = props;
+    const {handleAddToDetails, handleAddToOrder, meal} = props;
     const {strMealThumb, strMeal, strInstructions,} =meal;
     
     return (
@@ -13,6 +13,7 @@ const Meal = (props) => {
             <h3>{strMeal}</h3>
             <p>{strInstructions.slice(0, 100)}</p>
             <div className='btn'>
+            <button onClick={() => handleAddToDetails(meal)}>See Details</button>
             <button onClick={() => handleAddToOrder(meal)}>Add To Cart <FontAwesomeIcon className='icon' icon={faShoppingCart}></FontAwesomeIcon></button>
             </div>
         </div>

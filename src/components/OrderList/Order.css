@@ -3,3 +3,25 @@
     top: 0;
     padding: 15px;
 }
+.detail{
+    position: sticky;
+    top: 140px;
+}
+.detail h1{
+    margin-bottom: 0px;
+}
+.detail ul li{
+    text-align: start;
+}
+.food-details{
+    width: 85%;
+    margin: auto;
+    background-color: rgba(250, 235, 215, 0.698);
+    /* border: 1px solid lightgray; */
+    padding: 10px;
+    border-radius: 15px;
+}
+.food-details img{
+    width: 100%;
+    border-radius: 15px;
+}
