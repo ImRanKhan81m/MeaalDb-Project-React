@@ -9,7 +9,7 @@ const Restaurant = () => {
     const [detail, setDetail] = useState([]);
 
     useEffect(() => {
-        fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=a')
+        fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=cake')
             .then(res => res.json())
             .then(data => setMeals(data.meals));
     }, []);
